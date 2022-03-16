@@ -9,7 +9,7 @@ public class Book {
 		book.printBook();
 		
 	}
-	Book()
+	public Book()
 	{
 		bookId=1;
 		bookName="Computer";
