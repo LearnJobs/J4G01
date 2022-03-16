@@ -1,3 +1,5 @@
+//Program 06
+//Write a Program to Calculate addition and average of integer array passed to a function
 
 public class SumAndAverage {
 	
