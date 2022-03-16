@@ -24,20 +24,3 @@ public class Problem_3 {
 		}
 	}
 }
-
-//public class Problem_3 {
-//	public static void main(String[] args) {
-//		EmployeeSalary(80001);
-//
-//	}
-//
-//	private static void EmployeeSalary(int employeeSalary) {
-//		if(employeeSalary > 80000)
-//			try {throw new SalaryException();}
-//		catch (SalaryException se) {
-//			System.out.println(se.getMessage());
-//		}
-//		
-//	}
-//
-//}
