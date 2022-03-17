@@ -1,9 +1,7 @@
-/* Program 01 : Write a program to compare two strings with equals(),equalsIgnoreCase(),
-				compareTo(), endsWith(), startsWith()
-*/
+/* Program 01 : Write a program to compare two strings with equals(),equalsIgnoreCase(),compareTo(), endsWith(), startsWith() */
 
 package assignment02;
-public class StringComparison implements Comparable<String> {
+public class StringComparison {
 
 	public static void main(String[] args) {
 		String string1 = "Akash Kouthekar";
@@ -35,10 +33,4 @@ public class StringComparison implements Comparable<String> {
 		else
 			System.out.println("False");
 	}
-
-	@Override
-	public int compareTo(String o) {
-		return this.compareTo(o);
-	}
-
 }
