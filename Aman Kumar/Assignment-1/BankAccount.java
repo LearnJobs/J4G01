@@ -9,6 +9,7 @@ public class BankAccount {
 			this.accountId = accountId;
 			this.accountName = accountName;
 			this.accountBalance = accountBalance;
+			sum=sum+accountBalance;
 		}
 		public void doposit(double credit)
 		{
@@ -34,10 +35,7 @@ public class BankAccount {
 			System.out.println(accountName);
 			System.out.println(accountBalance);
 		}
-		/*public void totalDisplay()
-		{
-			System.out.println(sum);
-		}*/
+		
 		
 		
 }
