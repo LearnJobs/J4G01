@@ -11,7 +11,7 @@ public class DeSerialization {
 		
 		
 		ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("E://java2.txt"));
-		Book deserializedBook = (Book) objectInputStream.readObject();		// this line may throw ClassNotFoundException while reading object		
+		Book deserializedBook = (Book) objectInputStream.readObject();				
 		System.out.println("Deserialized book details");
 		System.out.println(deserializedBook);
 	}
