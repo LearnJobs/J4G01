@@ -11,7 +11,7 @@ public class BankAccountTest {
 		bankaccount.displayAccountBalance();
 		bankaccount1.displayAccountBalance();
 		bankaccount2.displayAccountBalance();
-		//double total=bankaccount.accountBalance+bankaccount1.accountBalance+bankaccount2.accountBalance;
+		double total=bankaccount.accountBalance+bankaccount1.accountBalance+bankaccount2.accountBalance;
 		bankaccount.sumAccountBalance(bankaccount.accountBalance);
 		bankaccount1.sumAccountBalance(bankaccount1.accountBalance);
 		bankaccount2.sumAccountBalance(bankaccount2.accountBalance);
