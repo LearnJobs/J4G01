@@ -1,11 +1,11 @@
 # Assignment-05
-    Program 01 : 
-    Program 02 :
-    Program 03 :
-    Program 04 :
-    Program 05 :
-    Program 06 :
-    Program 07 :
-    Program 08 :
-    Program 09 :
-    Program 10 :
+    Program 01 : PrintHelloWorldByThread.java
+    Program 02 : PrintHelloWorldByRunnable.java
+    Program 03 : PrintNumbersByExecutorFramework.java
+    Program 04 : PrintArrayListByConsumer.java
+    Program 05 : PrintOddNumbersByPredicate.java
+    Program 06 : NameArrayList.java
+    Program 07 : NameArrayList.java
+    Program 08 : StreamToList.java
+    Program 09 : PrintFirstNumber.java
+    Program 10 : CheckStringByAnyMatch.java
