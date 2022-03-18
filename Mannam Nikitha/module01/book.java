@@ -1,36 +1,24 @@
-package module3;
+package com.assignment01;
 
-import com.code.Book;
-
-public class book {
+  public class Book {
+	int bookId;
+	String bookName,bookAuthor;
 	
-	int bookid=101;
-	String bookName="Prince of Persia";
-	String bookAuthor="shylock";
-	
-	
-	public Book() {
-		//super();
-		this.bookid = bookid;
+	public Book() {		//Default constructor
+		bookId=2222;
+		bookName="Harry Potter";/Users/rohinikumar/eclipse-workspace/gavs /module1/src/com/assignment01/book.java
+		bookAuthor="J. K. Rowlling";
+	}
+	public Book(int bookId, String bookName, String bookAuthor) {
+		 super();
+		this.bookId = bookId;
 		this.bookName = bookName;
 		this.bookAuthor = bookAuthor;
 	}
-
-	void printBook()
-	{
-		System.out.println("bookid is : "+ bookid);
-		System.out.println("bookName is : "+ bookName);
-		System.out.println("bookAuthor is : "+ bookAuthor);
-	}
 	
-	public static void main(String[] args) {
-		
-		Book book =new Book();
-		book.printBook();
-		
+	public void printBook()
+	{
+		System.out.println("Book Id : "+bookId+"\nBook Name : "+bookName+"\nAuthor : "+bookAuthor+"\n");
 	}
+
 }
-
-
-
-
