@@ -1,0 +1,217 @@
+Objective: What is HTTP protocol
+
+1.  In the past, the network connectivity use to transfer the files and resources across the network in a stream.
+    Very often it was seen, that the connectivity got disrupted while transfering the file.
+    When a file got transfered from the source to the destination, very likely the network got disrupted. The data was
+    resend from the begining. It took long time to transfer the data from the source to the destination.
+
+		+----------+                        +----------+
+		|          | 						|          |
+		|          +----->------->------>---+          |
+		|          |						|          |
+		+----------+						+----------+
+		   Source                            Destination
+
+    To transfer 1000 bytes from the source computer to the destination, in the process after 950 bytes are 
+    already transfered, there is an accidental disruption, the entire file had to be transmitted from the begining.
+
+
+2. The engineers created TCP/IP protocol in which the data was sliced to small packets. Each packet was wrapped
+   in a header and a trailer. The header kept the information about the packet and the address of the previous packet.
+   The trailer kept information about the next adjoining packet.
+
+			+---+----------+---+		+---+----------+---+        +---+----------+---+
+			| H	|          | T |		| H |          | T |		| H	|          | T |
+			+---+----------+---+		+---+----------+---+		+---+----------+---+
+                  Packets-1				      Packets-2       		      Packets-3
+
+3. HTTP protocol is a improvement of the TCP/IP protocol. When HTTP protocol was created, the HTML language
+   was also created. HTML scripting language became a model data for transfering across the HTTP connectivity.
+
+----------------------------------------------------------------------------------------------------------------------
+What is a computer language?
+	= A computer language is a symbolic representation where the execution is done in sequence of line number
+	= The language provides facility to jump and to loop across a set of lines
+	= The language has capabilities to iterate, compute and to make condition checking
+
+There are 3 types of computer languages:
+	1.  Passive language
+		Is that which can't make any computation iteration, and condition checking.
+		It is created for presentation purpose only. How to display the data on the screen.
+		Examples of passive language are:
+			SGML (Standard Generalized Markup Language)
+            HTML (Hyper Text Markup Language)
+
+	2.  Active language
+		Is a real computer language. It is built to solve mission critical problems.
+		They are executed in the machine in which they reside. It uses the resources of the residing machine.
+		Examples of active languages are:
+			COBOL, ForTran, Pascal, C, C++, Java, ....
+
+	3.  Dynamic language
+		A program that resides in another machine or the server machine. When request is sent to executed from the
+		local machine, it is executed using the server resources and the result is transmitted to the requesting
+		machine. Programs are requested to execute from another machine and the result is transmitted to the
+		requesting machine.
+		The result of the Dynamic language is always in form of Passive language source code, i.e. is HTML.
+
+----------------------------------------------------------------------------------------------------------------------
+HTML stands for Hyper Text Markup Language.
+HTML is created by Tim Berners-Lee.
+HTML is a language that is created by elements.
+HTML is not a case sensitive language.
+HTML elements are reserve words. Each HTML element is wrapped by a pair of angle brackets <>
+HTML has 2 kinds of elements
+    1. Self terminated element
+       Example:
+            <br />
+            <img />
+            <hr />
+    2. Terminator required element
+       Example:
+            <html>...</html>
+            <head>...</head>
+            <body>...</body>
+            <form>...</form>
+
+The HTML source is embedded with the principal element that is <HTML>...</HTML>.
+There are basically 2 sub-elements of the principal element that is <html>...</html>. These sub-elements are
+the <head>...</head> and <body>...</body>.
+The structure of the HTML source code is:
+    <html>
+        <head>
+        </head>
+
+        <body>
+        </body>
+    </html>
+
+The HTML programs are ment to be executed by the Internet Browser. For example:
+    1. Netscape Navigator
+    2. Internet Explorer
+    3. Opera
+    4. FireFox
+    5. Google Chrome
+    6. Safari
+
+Every internet browser has two parts:
+    1. Header
+    2. Body
+
+The list of elements that exist in HTML 4.0 are as follows:
+A - Anchor
+ABBR - Abbreviation
+ACRONYM - Acronym
+ADDRESS - Address
+APPLET - Java applet
+AREA - Image map region
+B - Bold text
+BASE - Document base URI
+BASEFONT - Base font change
+BDO - BiDi override
+BIG - Large text
+BLOCKQUOTE - Block quotation
+BODY - Document body
+BR - Line break
+BUTTON - Button
+CAPTION - Table caption
+CENTER - Centered block
+CITE - Citation
+CODE - Computer code
+COL - Table column
+COLGROUP - Table column group
+DD - Definition description
+DEL - Deleted text
+DFN - Defined term
+DIR - Directory list
+DIV - Generic block-level container
+DL - Definition list
+DT - Definition term
+EM - Emphasis
+FIELDSET - Form control group
+FONT - Font change
+FORM - Interactive form
+FRAME - Frame
+FRAMESET - Frameset
+H1 - Level-one heading
+H2 - Level-two heading
+H3 - Level-three heading
+H4 - Level-four heading
+H5 - Level-five heading
+H6 - Level-six heading
+HEAD - Document head
+HR - Horizontal rule
+HTML - HTML document
+I - Italic text
+IFRAME - Inline frame
+IMG - Inline image
+INPUT - Form input
+INS - Inserted text
+ISINDEX - Input prompt
+KBD - Text to be input
+LABEL - Form field label
+LEGEND - Fieldset caption
+LI - List item
+LINK - Document relationship
+MAP - Image map
+MENU - Menu list
+META - Metadata
+NOFRAMES - Frames alternate content
+NOSCRIPT - Alternate script content
+OBJECT - Object
+OL - Ordered list
+OPTGROUP - Option group
+OPTION - Menu option
+P - Paragraph
+PARAM - Object parameter
+PRE - Preformatted text
+Q - Short quotation
+S - Strike-through text
+SAMP - Sample output
+SCRIPT - Client-side script
+SELECT - Option selector
+SMALL - Small text
+SPAN - Generic inline container
+STRIKE - Strike-through text
+STRONG - Strong emphasis
+STYLE - Embedded style sheet
+SUB - Subscript
+SUP - Superscript
+TABLE - Table
+TBODY - Table body
+TD - Table data cell
+TEXTAREA - Multi-line text input
+TFOOT - Table foot
+TH - Table header cell
+THEAD - Table head
+TITLE - Document title
+TR - Table row
+TT - Teletype text
+U - Underlined text
+UL - Unordered list
+VAR - Variable
+
+In HTML 5.0 few more elements are added.
+
+Currently, the best HTML editor that the industry is using is Visual Code editor.
+
+
+CLASSWORK-01 for 17-03-2022:
+1.  Write a HTML program to display a table with 3 following columns
+    a)  Column-1: Serial No.
+    b)  Column-2: Photo of President/Prime Minister/Cheif Justice/Chief of Defence
+    c)  Column-3: Name and address of the person
+
+
+ASSIGNMENT-01 for 17-03-2022:
+1.  Write a HTML program to display your resume. Add photograph at the top-right corner.
+2.  Create a table to display the list of computer languages with the following columns:
+    a)  Serial number
+    b)  Name of the language
+    c)  Created by
+    d)  Year of starting
+    e)  Purpose of using
+3.  Write a HTML program to display the money receipt of an online purchase.
+4.  Write a HTML program to display a calculator.
+
+
