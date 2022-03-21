@@ -1,0 +1,138 @@
+<html>
+
+<head>
+    <title>
+        Personal Information Form
+    </title>
+</head>
+
+<body background="college.jpeg">
+    <h1>Personal Information Form</h1>
+    <hr>
+    <form action="#" method="post">
+        <table>
+            <tr>
+                <td>1. First Name</td>
+                <td><input type="text" name="first_name" id="first_name"></td>
+            </tr>
+            <tr>
+                <td>2. Last Name </td>
+                <td><input type="text" name="last_name" id="last_name"></td>
+            </tr>
+            <tr>
+                <td>3. Date of Birth</td>
+                <td><input type="date" name="dob" id="dob"></td>
+            </tr>
+            <tr>
+                <td>4. Name of the examination passed</td>
+                <td><select name="exam" id="exam">
+                        <option value="none">Select Exam</option>
+                        <option value="B.Tech">B.Tech</option>
+                        <option value="B.E.">B.E.</option>
+                        <option value="MBBS">MBBS</option>
+                        <option value="B.Com">B.Com</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>5. Marks Obtained<br>(Out of 100)</td>
+                <td>
+                    <table>
+                        <thead>
+                            <td><b>Subject 1</b></td>
+                            <td><b>Subject 2</b></td>
+                            <td><b>Subject 3</b></td>
+                            <td><b>Subject 4</b></td>
+                            <td><b>Subject 5</b></td>
+                        </thead>
+                        <tr>
+                            <td><input type="number" name="Subject_1" id="Subject_1" min="0" max="100" step="1"></td>
+                            <td><input type="number" name="Subject_2" id="Subject_2" min="0" max="100" step="1"></td>
+                            <td><input type="number" name="Subject_3" id="Subject_3" min="0" max="100" step="1"></td>
+                            <td><input type="number" name="Subject_4" id="Subject_4" min="0" max="100" step="1"></td>
+                            <td><input type="number" name="Subject_5" id="Subject_5" min="0" max="100" step="1"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>6. Country</td>
+                <td><select name="Country" id="Country">
+                        <option value="none">Select Country</option>
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Taiwan">Taiwan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>7. E-mail</td>
+                <td><input type="email" name="E-mail" id="E-mail"></td>
+            </tr>
+            <tr>
+                <td>8. Mobile Number</td>
+                <td><input type="number" name="Mobile_Number" id="Mobile_Number"></td>
+            </tr>
+            <tr>
+                <td>9. Name of the 3 Streams wanting admission for </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td><b>Stream 1</b></td>
+                            <td><select>
+                                    <option value="none">Select Stream 1</option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Mech">Mech</option>
+                                    <option value="Electronics">Electronics</option>
+                                </select>
+                            </td><br>
+                            <td><b>Stream 2</b></td>
+                            <td><select>
+                                    <option value="none">Select Stream 2</option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Mech">Mech</option>
+                                    <option value="Electronics">Electronics</option>
+                                </select>
+                            </td>
+                            <td><b>Stream 3</b></td>
+                            <td><select>
+                                    <option value="none">Select Stream 3</option>
+                                    <option value="CSE">CSE</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Mech">Mech</option>
+                                    <option value="Electronics">Electronics</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <tr>
+                    <td>10. Correspondence Address</td>
+                    <td><input type="text" name="Address" id="Address"></td><br>
+                </tr>
+                <tr>
+                    <td>11. Do you want to stay in the Hostel</td>
+                    <td><input type="radio" id="Yes" name="hostel" value="Yes">
+                        <label for="html">Yes</label>
+                        <input type="radio" id="No" name="hostel" value="No">
+                        <label for="html">No</label><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>12. Do you have your own communication</td>
+                    <td><input type="radio" id="Yes" name="com" value="Yes">
+                        <label for="html">Yes</label>
+                        <input type="radio" id="No" name="com" value="No">
+                        <label for="html">No</label><br>
+                    </td>
+                </tr>
+        </table>
+        <input type="submit" value="Save">
+        <input type="reset" value="Clear">
+    </form>
+</body>
+
+</html>
