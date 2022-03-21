@@ -8,6 +8,8 @@
 5. Types of CSS (Inline, Internal, External)
 6. Example of CSS
 
+  
+  
 CLASSWORK FOR 21-03-2022
 ------------------------
 Create a form for enrolment in the college with the following fields:
