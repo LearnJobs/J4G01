@@ -1,0 +1,12 @@
+ASSIGNMENT-03 FOR 21-03-2022
+----------------------------
+1.  Write a HTML script to capture the login credentials from the user
+2.  Write a HTML script to scroll up the text within the artical section of the page
+3.  Write a HTML screen to display a page with background image of a forest
+4.  List all page structural elements that exist in HTML 5.0
+5.  What is the hexadecimal combination of the following color names:
+    a)  LightSalmon
+    b)  Indigo
+    c)  MistyRose
+    d)  PapayaWhip
+    e)  Thistle
