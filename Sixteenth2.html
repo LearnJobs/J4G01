@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+            .tooltip {                      /* Tooltip container */
+                position: relative;
+                display: inline-block;
+                border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+            }
+            
+            .tooltip .tooltiptext {         /* Tooltip text */
+                visibility: hidden;
+                width: 120px;
+                background-color: black;
+                color: #fff;
+                text-align: center;
+                padding: 5px 0;
+                border-radius: 6px;
+                
+                position: absolute;         /* Position the tooltip text - see examples below! */
+                z-index: 1;
+            }
+            
+            .tooltip:hover .tooltiptext {   /* Show the tooltip text when you mouse over the tooltip container */
+                visibility: visible;
+            }
+        </style>
+    </head>    
+    <body>
+        <div class="tooltip">
+            <table border="1">
+                <tr>
+                    <td>C++</td>
+                    <td>General Purpose</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>General Purpose</td>
+                </tr>
+                <tr>
+                    <td>Python</td>
+                    <td>Data Science</td>
+                </tr>
+            </table>
+            <span class="tooltiptext">Hover text</span>
+        </div>
+    </body>
+</html>
