@@ -19,6 +19,15 @@ public class AddTwoDays {
 		LocalDate date = LocalDate.now().plusDays(2);
 		System.out.println("After 2 days date is: " + date + " , "
 				+ date.getDayOfWeek());
+		String date2=date.getDayOfWeek().toString();
+		if(date2.equalsIgnoreCase("Sunday"))
+		{
+			System.out.println("today is sunday");
+		}
+		else
+		{
+			System.out.println("today is not sunday");
+		}
 
 	}
 
