@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Prime numbers between 1000 and 2000</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var start = 1000;
+            var end = 3000;
+            var yn;
+            var count = 0;
+
+            document.writeln("<h2>PRIME NUMBERS BETWEEN 1000 AND 2000</h2>");
+            document.writeln("<table border='1' cellspacing='10' cellpadding='10'>");
+            document.writeln("<tr>");
+            for(var i=start; i<=end; i++) {     // iterate across 1000 to 2000
+                yn = true;
+                for(var j=2; j<i; j++) {        // iterate across 2 to (i-1)
+                    if(i%j==0) {
+                        yn = false;
+                        break;
+                    }
+                }
+
+                if(yn) {
+                    document.write("<td>"+i+"</td>");
+                    count++;
+                    if(count==15) {
+                        document.writeln("</tr>");
+                        document.writeln("<tr>");
+                        count = 0;
+                    }
+                }
+            }
+            document.writeln("</tr>");
+            document.writeln("</table");
+        </script>
+    </body>
+</html>
