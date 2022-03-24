@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Print multiplication table between 10 and 40</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            var start = 2;
+            var end = 200;
+            var count = 0;
+
+            document.writeln("<h2>Multiplication Table from 10 to 40</h2>");
+            document.writeln("<table border='1' cellspacing='2' cellpadding='2'>");
+            document.writeln("<tr>");
+            for(var i=start; i<=end; i++) {     // iterate across 10 to 49
+                document.writeln("<td>");
+
+                document.writeln("<table>");
+                for(var j=1; j<=10; j++) {
+                    document.writeln("<tr>");
+                    document.writeln("<td align='right'>"+i+"</td>");
+                    document.writeln("<td align='center'>x</td>");
+                    document.writeln("<td align='right'>"+j+"</td>");
+                    document.writeln("<td align='center'>=</td>");
+                    document.writeln("<td align='right'>"+(i*j)+"</td>");
+                    document.writeln("</tr>");
+                }
+                document.writeln("</table>");
+
+                document.writeln("</td>");
+                count++;
+                if(count==10) {
+                    document.writeln("</tr>");
+                    document.writeln("<tr>");
+                    count = 0;
+                }
+            }
+            document.writeln("</tr>");
+            document.writeln("</table>");
+        </script>
+    </body>
+</html>

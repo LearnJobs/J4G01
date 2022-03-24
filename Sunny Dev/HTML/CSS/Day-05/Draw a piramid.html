@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Draw a piramid of astricks</title>
+        <!-- 
+                       *
+                      ***
+                     *****
+                    *******
+                   *********
+                  ***********
+                 *************
+                ***************
+        -->
+    </head>
+    <body>
+        <script type="text/javascript">
+            var star = 1;
+            var space = 50;
+            document.writeln("<tt>");
+            for(var i=1; i<=9; i++) {
+                for(var j=0; j<space; j++) document.write("&nbsp;");
+                for(var j=0; j<star; j++)  document.write("*");
+                star += 2;
+                space -= 1;
+                document.writeln("<br>");
+            }
+            document.writeln("</tt>");
+        </script>
+    </body>
+</html>
