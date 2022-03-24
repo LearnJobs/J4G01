@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Table</title>
+        <style type = "text/css">
+            table.one {border-collapse:collapse;}
+            table.two {border-collapse:separate;}
+            
+            td.a {
+               border-style:dotted; 
+               border-width:3px; 
+               border-color:#000000; 
+               padding: 10px;
+            }
+            td.b {
+               border-style:solid; 
+               border-width:3px; 
+               border-color:#333333; 
+               padding:10px;
+            }
+            .scrolling {
+                background-color: lightblue;
+                color: blue;
+                font-size: 25;
+            }
+         </style>
+    </head>
+    <body>
+        <marquee class="scrolling">Welcome too GAVS Technologies</marquee>
+        <hr>
+        <table class = "one">
+            <caption>Collapse Border Example</caption>
+            <tr><td class = "a"> Cell A GAVS</td></tr>
+            <tr><td class = "b"> Cell GAVS Technologies</td></tr>
+         </table>
+         <br />
+
+         <table class = "two">
+            <caption>Separate Border Example</caption>
+            <tr>
+                <td class = "a"> Cell A Separate Example</td>
+                <td class = "b"> Cell A Separate Example</td>
+            </tr>
+            <tr>
+                <td class = "b"> Cell B Separate Example</td>
+                <td class = "a"> Cell B Separate Example</td>
+            </tr>
+         </table>
+    </body>
+</html>
