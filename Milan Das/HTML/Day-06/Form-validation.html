@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>JavaScript Event Handling</title>
+        <script type="text/javascript">
+            function validate(form) {
+                var nameObj = form.myname;
+
+                // Name validation
+                var name = nameObj.value;
+                var len = name.length;
+                var c;
+                var error = false;
+
+                for(var i=0; i<len; i++) {
+                    c = name.charCodeAt(i);
+                    if((c<65 || c>90) && (c<97 || c>122) && c!=32) {
+                        error = true;
+                        break;
+                    }
+                }
+                if(error) {
+                    alert("Error in Name!");
+                    return false;
+                }
+                
+
+                // Father's Name validation
+                var fatherObj = form.father;
+                name = fatherObj.value;
+                error = false;
+
+                for(var i=0; i<len; i++) {
+                    c = name.charCodeAt(i);
+                    if((c<65 || c>90) && (c<97 || c>122) && c!=32) {
+                        error = true;
+                        break;
+                    }
+                }
+                if(error) {
+                    alert("Error in Father!");
+                    return false;
+                }
+
+
+                // Gender validation
+                var genderObj = form.gender;
+                var sex = genderObj.value;
+                if(sex!="F" && sex!="M") {
+                    alert("Error in Gender!");
+                    return false;
+                }
+
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <form action="http://www.google.co.in/" onsubmit="return validate(this);" method="post">
+            <table>
+                <tr>
+                    <td><label>What is your name? </label></td>
+                    <td><input type="text" name="myname" value=""></td>
+                </tr>
+                <tr>
+                    <td><label>What is your father's name? </label></td>
+                    <td><input type="text" name="father" value=""></td>
+                </tr>
+                <tr>
+                    <td><label>What is your gender? </label></td>
+                    <td>
+                        <input type="radio" name="gender" value="M"> Male
+                        <input type="radio" name="gender" value="F"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>What is your email-id? </label></td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label>What is your Date-of-Birth? </label></td>
+                    <td><input type="date" name="date"></td>
+                </tr>
+            </table>
+            <br><br>
+            <input type="submit" value="Ok" >
+        </form>
+    </body>
+</html>
