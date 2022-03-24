@@ -1,0 +1,88 @@
+<html>
+    <head>
+        <title>Personal Information</title>
+    </head>
+    body bgcolor="GreenYellow" background="background-image2.jpg" 
+    <body bgcolor="PaleVioletRed">
+            <h1>Personal Information</h1>
+        <hr><br>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <td>1</td>
+                    <td><lable>Name of the Person: </lable></td>
+                    <td><input type="text" name="name" id="name"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><lable>Father's Name: </lable></td>
+                    <td><input type="text" name="father" id="father"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><lable>Gender: </lable></td>
+                    <td>
+                        <input type="radio" name="gender" id="gender" value="M"> Male
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="gender" id="gender" value="F"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><lable>Highest Qualificaiton: </lable></td>
+                    <td>
+                        <select name="HQualif" id="HQualif">
+                            <option value="">Select</option>
+                            <option value="HSC">Higher Secondary Certificate</option>
+                            <option value="+2">Intermediate Certificate</option>
+                            <option value="+3">Bachelor Degree</option>
+                            <option value="PG">Post Graduate Degree</option>
+                            <option value="MPh">Master in Philosophy</option>
+                            <option value="PhD">Doctoral Degree</option>
+                            
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><lable>Employed: </lable></td>
+                    <td>
+                        <input type="radio" name="employed" id="employed"> Yes
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input type="radio" name="employed" id="employed"> No
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><lable>Date of Birth: </lable></td>
+                    <td><input type="date" name="dob" id="dob"></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><lable>Interest Locations: </lable></td>
+                    <td>
+                        <input type="checkbox" name="location" id="location" value="1"> Bangaluru
+                        <input type="checkbox" name="location" id="location" value="2"> Pune
+                        <input type="checkbox" name="location" id="location" value="3"> Hyderabad
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" name="location" id="location" value="1"> Mumbai
+                        <input type="checkbox" name="location" id="location" value="2"> Banaras
+                        <input type="checkbox" name="location" id="location" value="3"> New Delhi
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><lable>Identification Mark: </lable></td>
+                    <td><input type="text" name="imark" id="imark"></td>
+                </tr>
+            </table>
+            <input type="submit" value="Save" />
+            <input type="reset" value="Clear" />
+        </form>
+    </body>
+</html>
