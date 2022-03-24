@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>JavaScript Event Handling</title>
+        <script type="text/javascript">
+            function validate(form) {
+                var nameObj = form.name;
+                var name = nameObj.value;
+                alert(name);
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <form action="" onsubmit="return validate(this);" method="post">
+            <label>What is your name? </label><br>
+            <input type="text" name="name">
+            <br><br><br>
+            <input type="submit" value="Ok" >
+        </form>
+    </body>
+</html>
