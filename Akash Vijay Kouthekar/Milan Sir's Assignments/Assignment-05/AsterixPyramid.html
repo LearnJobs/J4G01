@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Asterix Pyramid Pattern</title>
+    </head>
+    <body>
+        <script>
+           var space=9,asterix=2;
+            var limit=space;
+            document.write("<table cellpadding='02' align='center'>");
+                for(var i=0;i<limit;i++)
+                {
+                    document.writeln("<tr>");
+                    for(var j=1;j<space;j++) document.writeln("<td>&nbsp;</td>");
+                    for(var k=1;k<asterix;k++)  document.writeln("<td align='center'>*</td>");
+                    for(var j=1;j<space;j++)  document.writeln("<td>&nbsp</td>");
+                    space=space-1;
+                    asterix=asterix+2;
+                    document.writeln("</tr>");
+                } 
+                document.write("</table>");
+        </script>
+    </body>
+</html>
