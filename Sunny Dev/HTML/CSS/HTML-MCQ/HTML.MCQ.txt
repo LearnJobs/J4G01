@@ -1,0 +1,202 @@
+                                                                   HTML Multiple choice questions
+                                                                 -----------------------------------
+                                                                 -----------------------------------
+1)HTML stands for –
+
+Solve:-    (C)	HyperText Markup Language
+
+2)HTML Is A Subset Of?
+
+Solve:-    (C)	SGML
+
+3)The correct sequence of HTML tags for starting a webpage is –
+
+Solve:-    (D)	HTML, Head, Title, Body
+
+4)Correct HTML Tag For The Largest Heading Is
+
+Solve:-    (C)	<h1>
+
+5)Which of the following element is responsible for making the text bold in HTML?
+
+Solve:-    (C)	<b>
+
+6)Which of the following tag is used for inserting the largest heading in HTML?
+
+Solve:-    (B)	<h1>
+
+7)Which of the following tag is used to insert a line-break in HTML?
+
+Solve:-    (A)	<br>
+
+8)How to create an unordered list (a list with the list items in bullets) in HTML?
+
+Solve:-    (A)	<ul>
+
+9)Which of following is not an attribute of <form>tag
+
+Solve:-    (D)	url
+
+10)Which character is used to represent the closing of a tag in HTML?
+
+Solve:-   (C)	/
+
+11)The BODY Tag Is Usually Used After
+
+Solve:-   (C)	HEAD Tag
+
+12)How to create a hyperlink in HTML?
+
+Solve:-   (A) <a href = "www.javatpoint.com"> javaTpoint.com </a
+
+13)How to create an ordered list (a list with the list items in numbers) in HTML?
+
+Solve:-   (B)	<ol>
+
+14)Which of the following element is responsible for making the text italic in HTML?
+
+Solve:-   (B)	<italic>
+
+15)A Much Better Approach To Establish The Base URL Is To Use The ______ Element
+
+Solve:-   (B)	BASE
+
+16)Gif And Jpg Are The Two Main Types Of What?
+
+Solve:-   (D)	Animated Effects
+
+17)How to insert an image in HTML?
+
+Solve:-   (D)	<img src = "jtp.png" />
+
+18)To Start A List Using Circles, Use
+
+Solve:-   (A) <ul Type="circle">
+
+19)Which Is Not A Property Of Attribute Behaviour Of &lt;Marquee> Tag?
+
+Solve:-   (B)	Scroll
+
+20)How to add a background color in HTML?
+
+Solve:-   (A)	<background-color: "red">
+
+21)A Simple Text File Which Tells The Browser What To Cache Is Known As A ________.
+
+Solve:-   (C)	A Manifest File
+
+22)Which HTML Tag Is used to define A Client-Side Script Such as The Javascript?
+
+Solve:-   (B)	<script>
+
+23)<input> is –
+
+Solve:-   (B)	an empty tag.
+
+24)Which of the following tag is used to make the underlined text?
+
+Solve:-   (C)	<u>
+
+25)Which tag is used to create a checkbox in HTML?
+
+Solve:-   (D)	<Input type = "checkbox">
+
+26)Which attribute sets the text direction as related to lang attribute.
+
+Solve:-   (D)	Dir
+
+27)Which html attribute is used to provide an advisory text about an element or It’s contents?
+
+Solve:-   (B)	Title
+
+28)How to create a checkbox in HTML?
+
+Solve:-   (C)	<checkbox>
+
+29)Which of the following tag is used to define options in a drop-down selection list?
+
+Solve:-   (D)	<option>
+
+30)HTML tags are enclosed in-
+
+Solve:-   (D)	< and >
+
+31)Which of the following tag is used to add rows in the table?
+
+Solve:-   (C)	<tr> and </tr>
+
+32)The <hr> tag in HTML is used for –
+
+Solve:-   (D)	horizontal ruler
+
+33)Which of the following attribute is used to provide a unique name to an element?
+
+Solve:-   (B)	id
+
+34)Which of the following HTML tag is used to display the text with scrolling effect?
+
+Solve:-   (A)	<marquee>
+
+35)Which of the following HTML tag is the special formatting tag?
+
+Solve:-   (C)	<pre>
+
+36)Which of the following is the correct way to send mail in HTML?
+
+Solve:-   (A)	<a href = "mailto: xy@y">
+
+37)Which of the following is the container for <tr>, <th>, and <td> ?
+
+Solve:-   (B)	<table>
+
+38)How to insert a background image in HTML?
+
+Solve:-   (A)	<body background="img.png">
+
+39)What are the types of unordered or bulleted list in HTML?
+
+Solve:-   (C)	disc, circle, square
+
+40)Which of the following is the correct way to create a list using the lowercase letters?
+
+Solve:-   (B)	<ol type = "a">
+
+41)Which of the following is the correct way to start an ordered list with the count of numeric value 4?
+
+Solve:-   (D)	<ol type = "1" start = "4">
+
+42)Which of the following HTML attribute is used to define inline styles?
+
+Solve:-   (A)	style
+
+43)Which of the following is the paragraph tag in HTML?
+
+Solve:-   (A)	<p>
+
+44)An HTML program is saved by using the ____ extension.
+
+Solve:-   (B)	.html
+
+45)A program in HTML can be rendered and read by –
+
+Solve:-   (A)	Web browser
+
+46)The tags in HTML are –
+
+Solve:-   (C)	not case sensitive
+
+47)Which of the following is the root tag of the HTML document?
+
+Solve:-   (D)	<html>
+
+48)In HTML5, which of the following tag is used to initialize the document type?
+
+Solve:-   (D)	<!DOCTYPE html>
+
+49)Which of the following tag is used to create a combo box (or drop-down box)?
+
+Solve:-   (B)	<select>
+
+50)Which of the following are the attributes of the tag?
+
+Solve:-   (C)	Both (a) & (b)
