@@ -7,18 +7,21 @@
 	{
 	    public static void main(final String[] args)
 	    {
-	        LocalDate today = LocalDate.now();
-	        System.out.println("Is weekend : " + isWeekend(today));
+	         LocalDate date1 = LocalDate.now();
 
-	        LocalDate someDate = LocalDate.of(2021, 1, 2); 
-	        // 2nd-Jan-2021
-	        System.out.println("Is weekend : " + isWeekend(someDate));
+	        LocalDate date2 = date1.plusDays(1); 
+	        
+	       String s=date2.getDayOfWeek().toString();
+	       if(s.equalsIgnoreCase("SUNDAY"))
+	       {
+	    	 System.out.println("Yes Sunday");
+	    	 
 	    }
+	       else
+	       {
+	    	   System.out.println("Not Sunday");
+	       }
 
-	    public static boolean isWeekend(final LocalDate ld)
-	    {
-	        DayOfWeek day = DayOfWeek.of(ld.get(ChronoField.DAY_OF_WEEK));
-	        return day == DayOfWeek.SUNDAY || day == DayOfWeek.SATURDAY;
 	    }
 	}
 
