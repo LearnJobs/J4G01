@@ -5,7 +5,7 @@
 
 	public class CheckSunday
 	{
-	    public static void main(final String[] args)
+	    public static void main(String[] args)
 	    {
 	         LocalDate date1 = LocalDate.now();
 
