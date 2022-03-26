@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Pyramid Number Pattern</title>
+    </head>
+    <body>
+             <script type="text/javascript">
+            var space=10,ascending=2;
+            var limit=space;
+            document.write("<table align='center' cellpadding='05'>");
+                for(var i=0;i<limit;i++)
+                {
+                    document.writeln("<tr>");
+                    for(var j=1;j<space;j++)        document.writeln("<td>&nbsp;</td>");
+                    for(var k=1;k<ascending;k++)    document.writeln("<td align='center'>"+i+"</td>");
+                    for(var j=1;j<space;j++)        document.writeln("<td>&nbsp</td>");
+                    space=space-1;
+                    ascending=ascending+2;
+                    document.writeln("</tr>");
+                } 
+                document.write("</table>");
+        </script>
+    </body>
+</html>
