@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Mountain Pattern</title>
+    </head>
+    <body>
+             <script type="text/javascript">
+            var space=16,ascending=2,descending=2;
+            var limit=9;
+            document.write("<table align='center' cellpadding='05'>");
+                for(var i=1;i<=limit;i++)
+                {
+                    document.writeln("<tr>");
+                    for(var k=1;k<ascending;k++)        document.writeln("<td align='center'>"+k+"</td>");
+                    for(var j=1;j<space;j++)            document.writeln("<td>&nbsp;</td>");
+                    if(i==limit)                        descending--;
+                    for(var s=descending-1;s>=1;s--)    document.writeln("<td align='center'>"+s+"</td>");
+                    space=space-2;
+                    ascending=ascending+1;
+                    descending=descending+1;
+                    document.writeln("</tr>");
+                } 
+                document.write("</table>");
+        </script>
+    </body>
+</html>
