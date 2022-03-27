@@ -1,0 +1,152 @@
+JAVA INTERVIEW QUESTIONS
+
+1) Wath is class ?
+   A class is Blue print from which you cancreate the Object of class.
+   Class is collection of Objects.
+   
+2) What do you mean by inheritance ?
+   A son inherits the properites of father or grand father,like color,height,eyes color etc..
+   
+3) What is Inheritance ?
+   It is Acquring the variables and methods from one class to another class. 
+
+4) Which are the types of inheritance ?
+   1) Single level Inheritance :
+      It is process of one parent class and one single class is known s single level inheritance. 
+   2) Multiple level Inheritance	:
+      It is process of one parent class and one child class and at least two or more inheritance class.
+   3) Hieracheal Inheritance :
+      Single parent mulitiple child creating multiple derived classes by using single base class.   
+   4) Multiple Inheritance :
+      It can be used from two are more parent class and one single class.
+   5) Hybrid Inheritance :
+      One parent class and one Intermidat class end two are more child classes.
+	  
+5) What is use of static keyword ?
+   The static keyword in java is used for memory management mainly.
+   
+6) what do you mean by constructor.
+   A constructor is a block which is used to initialized the instace varible.
+   ->The name of the constructor must be same as that of the class name.
+   ->It does not have any return type.
+   ->It's name should be same as the class name.
+
+7) Tell me the types of constructor.
+   1)Zero parameterized constructor :
+     If a constructor does not have any parameters,Then it is caled as zero parameterized constructor.
+   2)Parameterized constructor :
+     Parameterized constructor contains some parameters,it is called as parameterized.
+
+8) What are the different ways of creating objects in java ?
+   Five differeent ways to create an object in java:
+   ->java new operator
+   ->java class.newInstance()methods
+   ->javaObject.clone()method
+   ->java newInstance()method of constructor
+   ->javaObject Serialization and Deserialization   
+
+9) What is use of instaceOf operation ?
+   ->The instanceOf operator is used for object reference variables only.
+   ->It can be used to check whether an object is of a particular type.
+   ->The instanceOf operator return either true or false.
+   
+10) What are checked and Unchecked Exceptions ?
+    ->Checked exception:
+	Checked exception is used when java application is connected to resources.
+	->Unchecked exception:
+	It occurs when program is logically in correct. we can handle any no.of exceptin using single catch block by specifying exception type.  
+
+11) What are different types of checked exceptions ?
+    ->throw keyword
+    -> SQL Exception
+    -> ClassNot FoundException
+    -> Invocation TargetException
+    -> Nullpoint Exception
+    ->	ArrayIndexOutOfBound
+	->NumberFormat Exception
+	
+12) What are different type of Unchecked Exception ?
+    ->ArithmeticException
+	->NullpointException
+	->ArrayIndexOutOfBoundsException
+	->NumberormatException
+	
+13) Explain the use of "throws" keyword ?
+    The "throws"keyword is used to declare Exceptions.It doesn't throw an exception.
+	It specifies that there may occur an exceptin in the method.It is always used with methode signature.
+	
+14) How to create user defind xception ?
+   User defind Exception is creating your own exception class and throws that exception using 'throw' keyword.
+
+15) Can you explain the finally keyword ?
+    The"finally"block i used to execte the important code of the program.It is executed wheter an exception is handled or not.
+
+16) What is default value of static word ?
+    ZERO.
+
+17) What is interface and its use ?
+    Interface is a reference type in java.It is similar to class.It is a collection of abstract methods.
+    It is used to achieve abstraction nd multiple inheritance in java.
+
+18) What are marker interface?can you list out some marker intrfaces?
+    An interface that does not contain methods,fields nd constants is known as marker interface.
+    ->Cloneable Interface
+	->serializable Interface
+	->Remote Interface
+	
+19) What are wrapper objects?List out some of the wrapper objects.
+    Wapper classes are used to wrap or convert a primitive datatypes into a class is called wrapper class.
+    (Byte,Short,Long,Float,Double,Character,Boolean).
+
+20) What is boxing and unboxing ?
+    Boxing is the conversion of the value type to an object type whreas.
+	Unboxing refers to the conversion of the object type to the value type.
+	
+21) Which is cosmic super class for all the java classes ?
+    Object class of java is cosmic superclass. Every java program s the sub class of the object class.
+
+22) What are methods of object super class ?
+    1)pblic int hashcode() 
+      return the hashcode number for this objet.
+    2)public stringtoString()
+      return the string representation of the object.
+    3)public boolean equals(objectObj)
+      compares the given objet to this oject.
+
+23) What is use of this()keyword ?
+    This keyword will refer to the current instance of a class.
+    Using this keyword we can access instance members of a class.
+
+24) What is ue of super() keyword ?
+    super keyword is used for accessing instance members of parent class.
+
+25) What is serialization ?How to achieve it ?
+    Serialization in java is a mechanism of writing the state of an obect into a byte stream.
+    
+26) what is use to transient keyword ?
+    To eliminate the confusion between class attributes and parameters with the same name.
+
+27) What is shallow cloning ?How to achieve it ?
+    It creates a new instance and copies all the fields of the object to that new instance where both are referenceing to the same memory in heap memory.
+
+28) What are the properties of Hashset ?
+    ->HashSet class internally uses Hashmap to store the objects.
+    ->HashSet does not allow duplicate elements.
+    ->Hashset can have maximum one null elements.
+
+29) Explain comparator and comparable interface.
+    Comparator :It is interface implements sorting by traking the attributes of am object into consideration.
+	Comparable: Which comparable is used an objects that are naturally ordered.
+	
+30) How to achieve inheritance in java ?
+    In java inheritance is declared using the extends keyword can be declare that one class extends another class by using the extends keyword in the class definition.	
+	
+31) How to convert List to Array and vice-versa ?
+    The arrays class of the java.util.package provides you a methode named as list().This methode accepts an array & converts them into a list & returns it.
+
+32) Which colllection provides the sorted collection ?
+    If you want to maintain a sorted list which you will frequently modify.Then used on array list but when you need to insert an element,always use collections.
+	
+	
+	
+   
