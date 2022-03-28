@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> Pyramid </title>
+    </head>
+    <body>
+        <script>
+            var start=1;
+            var space=50;
+            var num;
+            document.writeln("<tt>");
+            for(var i=1; i<10;i++)
+            
+            {
+                for(var j=1;j<space;j++) document.write("&nbsp;");
+                for(var j=1;j<i;j++) document.write(j);
+                start +=2;
+                space -=1;
+                for(var j=i;j>=1;j--) document.write(j);
+                document.writeln("<br>");
+            }
+            document.writeln("</tt>");
+
+            </script>
+    </body>
+</html>
