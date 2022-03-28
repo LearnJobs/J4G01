@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Asterix Triangle Pattern</title>
+    </head>
+    <body>
+        <script>
+           var i,j,k=0;
+            var limit=9;
+            document.write("<table cellpadding='02' align='center'>");
+                for(var i=1;i<=limit;i++)
+                {
+                    document.writeln("<tr>");
+                    for(var j=i;j<limit;j++)    document.writeln("<td>&nbsp;</td>");   
+                    while (k!=2*i-1) 
+                    {
+                        if(k==0 || k==2*i-2)    document.writeln("<td align='center'>*</td>");
+                        else                    document.writeln("<td>&nbsp;</td>");
+                        k++;
+                    }
+                    k=0;
+                    document.writeln("</tr>");
+                }
+                document.writeln("<tr>");
+                for(var i=0;i<2*limit-1;i++)    document.writeln("<td align='center'>*</td>");    
+                document.writeln("</tr>");
+                document.write("</table>");
+        </script>
+    </body>
+</html>

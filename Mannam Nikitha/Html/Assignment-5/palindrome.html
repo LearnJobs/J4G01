@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Palindrome Pattern</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        var number = 4, start = 2, d = 1;
+        var num = number;
+        document.write("<table border='1' cellpadding='7'>");
+        for (var i = 0; i < num; i++) {
+            document.writeln("<tr>");
+            for (var j = 1; j < number; j++) {
+                document.writeln("<td></td>");
+            }
+            for (var k = 1; k < start; k++) {
+                document.writeln("<td align='center'>" + k + "</td>");
+            }
+            for (var m = d - 1; m >= 1; m--) {
+                document.writeln("<td align='center'>" + m + "</td>");
+            }
+            for (var j = 1; j < number; j++) {
+                document.writeln("<td></td>");
+            }
+            number = number - 1;
+            start = start + 1;
+            d = d + 1;
+            document.writeln("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+
+</html>
