@@ -1,3 +1,5 @@
+// program no 03
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -5,14 +7,16 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-public class LoginVerification {
+public class LoginVerification 
+{
 
-	public static void main(String[] args) {
-		try {
-				Class.forName("com.mysql.cj.jdbc.Driver");		//loading a driver i.e. type-4 driver for mysql
+	public static void main(String[] args) 
+	{
+		try 
+		{
+				Class.forName("com.mysql.cj.jdbc.Driver");		
 				System.out.println("Driver is loaded");
 	
-				// connect to the sql instance and database
 				Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/learnjobs", "root","password");
 				System.out.println("Connection established");
 			
@@ -33,11 +37,13 @@ public class LoginVerification {
 				else
 					System.out.println("Login Successfully");
 			}
-		catch (ClassNotFoundException e) {
+		catch (ClassNotFoundException e) 
+		{
 				System.err.println("Driver not configured");
 		}
-		catch (SQLException e) {
-				System.err.println("You are not Registered user");
+		catch (SQLException e) 
+		{
+				System.err.println("Not Registered user");
 		}
 	}
 }
