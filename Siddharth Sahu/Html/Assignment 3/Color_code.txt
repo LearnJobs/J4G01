@@ -1,0 +1,8 @@
+<!--  What is the hexadecimal combination of the following color names:-->
+
+Color Name	 Hexadicamal combination
+LightSalmon:-       #FFA07A
+Indigo:-     	    #4B0082
+MistyRose:-     	#FFE4E1
+PapayaWhip:-     	#FFE4D5
+Thistle:-     	    #D8BFD8

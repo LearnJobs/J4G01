@@ -1,0 +1,22 @@
+<!-- List all page structural elements that exist in HTML 5.0 -->
+
+
+< header >  wrap the section of content that forms the header of the page
+
+< hgroup >  used to group the heading elements
+
+< footer >  used to contain your site's footer content
+
+< nav >     used is to provide navigation links
+
+< aside >   aside content should be indirectly related to the surrounding content
+
+< time >    defines a specific time
+
+< figure >   specifies self-contained content
+
+< figcaption >  defines a caption for a <figure> element
+
+< article >  specifies independent, self-contained content
+
+< section >  defines a section in a document
