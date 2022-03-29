@@ -1,4 +1,4 @@
-// program no 01
+// program no 02
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,7 +13,7 @@ public class DisplayGarmentProducts
 		try 
 		{
 			Class.forName("com.mysql.cj.jdbc.Driver");		
-			System.out.println("Driver is loaded");
+			System.out.println("Driver is a loaded");
 	
 			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/learnjobs", "root","password");
 			System.out.println("Connection established");
@@ -32,7 +32,7 @@ public class DisplayGarmentProducts
 		}
 		catch (SQLException e)
 		{
-				System.err.println("Connection not established");
+				System.err.println("Connection not ");
 		}
 	}
 }
