@@ -16,11 +16,11 @@ public class Login extends HttpServlet
 		String user=req.getParameter("userName");
 		String pass=req.getParameter("userPassword");
 		
-		if(user.contentEquals("sunny")&& pass.contentEquals("sunny"))
-			pw.println("Login Success..");
+		if(user.contentEquals("sunny")&& pass.contentEquals("12#Sunny"))
+			System.out.println("Login Success..");
 		else
-			pw.println("Login Failed..");
-		pw.close();
+			System.out.println("Login Failed..");
+		
 				
 	}
 
