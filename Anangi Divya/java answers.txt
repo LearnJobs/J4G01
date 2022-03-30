@@ -1,0 +1,126 @@
+1)What is Class?
+      It is a BluePrint.It is a userdefined reference data type.It Consists of Variables & methods.
+
+2)What do you mean by Inheritance?
+       Inheritance is a mechanism where in a new class is derived from an exsisting Class.A Class derived from which a subclass is derived is called SuperClass.
+
+3)What is Inheritance?
+       Inheritance is a mechanism in which one object gets acquring /property/behaviours of a  parent objects.It is the most important pillar of the OOPS.In Java we create new Classes that are built upon exsiting classes. 
+
+4)Which are the types of heritance?
+        1) Single - level Inheritancce: Single-Parent and Single-Child derived from a single based class.
+        2) Multiple-level Inheritance: Creating a derived class by using another derived class.
+        3) Hieaarcheal Inheritance: Single-Parent and Multiple-Child derived from a single based class.
+        4) Multiple Inheritance: Creating a derived class by using multiple base class.
+        5) Hybrid Inheritance: It is a combination of hiearrcheal and multiple Inheritance.
+
+5)what is the use of the static Keyword?
+       The  static keyword means the value is the same for every instance of the class.
+
+6)What do you mean by Constructor?
+       A Constructor in java is a special method that is used to initialize objects. The Constructor is called when an object of a class is created.
+
+7)Tell me the types of Constructors?
+       Constructor can be divided into two types: 
+          1)Default Constructor: It is used to initialize default values for instance variable.
+          2)Parameterized Constructor: Creating a constructor with parameters is known as parameterized constructor.
+
+8)What are the different ways of creating objects in java?
+       1) Using newKeyword
+       2) Using Clone()Method
+       3) Using deserialization
+       4) Using newInstance()methodofConstructorClass
+
+9)What is the use of instanceof operator?
+       The instance of operator in java is used to check whether an obj.is an instance of a particular class (or) not.
+
+10)What are checked and unchecked exception?
+        Checked: It occurs when java Application is connected to resource.
+        Unchecked: It occurs when program is logically incorrect.We can handle any no.of exceptions using single Catch block by specifying exception type.
+
+11)What are the diff.types of Checked Exception?
+        In Checked Exception we have 4 diff.types:
+           1)Throw keyword
+           2)Sql Exception
+           3)ClassNotFound Exception
+           4)NullPoint Exception
+12)What are the diff.types of UnChecked Exception?
+        In Unchecked Exception we have 4 diff. types:
+           1)Arithmetic Exception 
+           2)NullPointer Exception 
+           3)ArrayIndexOutOfBounds Exception 
+           4)InputMismatch Exception 
+
+13)Explain the "Throws Keyword"?
+           It is Used to declare which exception can be thrown from a method.While throw keyword is used to explicity throw an exception with in a method.
+              This is used in a method signature & declares which exceptions can be thrown from a method.
+
+14)How to create a user defined exception?
+       User defined exception is creating your own exception class and throwing that exception using the 'throw' Keyword.
+
+15)Can you explain the Finally Keyword?
+       The Finally Keyword used to create a block of code that follows a tryblock.A finally block of code always executed whether (or) not an exception has occured.It allows you to run any cleanup-type stmts that execute.
+
+16)What is the Default value of static keyword?
+        The default value of static keyword is zero.
+ 
+17)What is interface and its use?
+        An interface is a reference type in java.It is similar to class.It is a collection of abstract methods.A class implements an interface.Along with abstract methods,an interface may also contain constants,Default methods,Static methods,nested types.
+
+18)What are marker interface?Can you list out some marker interface?
+        Marker Interface: An interface which donot have any method.
+              List: 
+                   1)Cloneable interface : It is pressent in java.lang.package.
+                   2)Serializable interface: It is present in java.io.package.It is used to make an object eligible for saving its state into a file.
+                   3)Remote interface: It is present in java.rmi package.
+
+19)What are wrapper object? List out some marker objects?
+        A wrapper class contains primitive data type(int,float,double,----.).When we create an object to a wrapper class, It contains field and in this field we can store primitive to object.
+
+20)What is boxing and Unboxing?
+        boxing: It convert into Primitive to object.
+           ex: Integer obj=new Integer(10);
+       Unboxing: It convert into object to promitive.
+            ex: int x=obj.int value();
+
+21)Which is cosmic superclass for all the java classes?
+             The subclass internally inherits all the methods of the object class. Hence,We can say that the objects class is the cosmic super class in java.
+
+22)What are the methods of object suoer class?
+        1)public String to String() : Returns the string representation of obj.
+        2)public final void notify() : Wakes up single thread,Waiting on this object's monitor.
+        3)public in hashcode() : Returns hashcode no.of this obj.
+
+23)What is the use of this() keyword?
+        It is used to invoke current class default constructor.
+
+24)What is the use of super() keyword?
+        It is used to invoke super class default constructor.
+
+25)What is Serialization?
+        It is a mechanism of converting the state of an object into a byte stream.It is usually used in Hibernate,JMS,JPA,EJB,serialization in Java helps transport the code from one JVM to another.
+
+26)What is the use of transient Keyword?
+        It is used to avoid Serialization.If any obj.of a data structure is defined as atransient,Then it will not be serialized.
+
+27)What is Shallow Cloing?How to achieve it?
+        It creates a new instance and copies of all the fields of the object to that new instance where both are reflecting same memory in heap memory.
+
+28)What are the Properties of hashset?
+        .No duplicates
+        .Insertion ordered
+        .Not Synchnorous
+
+29)Explain Comparator and Comparable Interface?
+           Comparator : It is interface implements sorting by taking the attributes of an obj.into consideration.
+           Comparable : While Comparable is used an obj. that are naturally ordered.
+
+30)How to convert list to Array and Vice-Versa?
+       The arrays class of the java.util package provides you a method named as list().This method accepts an array and converts them into a list and returns it.
+
+
+31)How we can achieve inheritance in java?
+       In java we declared using the extends keyword. One class extends another class by using extends keyword in class definition.
+
+32)Which Collection provides the sorted collection?
+         If you want to maintain a sorted list which you will frequency modify. Then use an array list but when you need to insert an element,Always use collections.
