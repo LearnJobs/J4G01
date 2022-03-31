@@ -1,23 +1,22 @@
-package com.Assignment05;
+package assigment7;
 
 import java.util.ArrayList;
 import java.util.function.Consumer;
 
-public class FunctionalInterface04  {
-	
+/**
+ * Problem 04
+ *
+ */
+public class FunctionalInterface04 {
 
-	
-		public static void main(String[] args) {
-			ArrayList<Integer> numberList = new ArrayList<Integer>();
-			for(int i=1;i<=10;i++)		
-				numberList.add(i);
-			Consumer<Integer> squareNumbers =(n)->System.out.print(n*n+" ");			
-			System.out.println("Printing square of numbers from 1 to 10 by Consumer");
-			for(Integer number : numberList)
-				squareNumbers.accept(number);			
-		}
-		
+	public static void main(String[] args) {
+		ArrayList<Integer> arralist = new ArrayList<Integer>();
+		for (int i = 1; i <= 10; i++)
+			arralist.add(i);
+		Consumer<Integer> square = (n) -> System.out.println(n * n + " ");
+		System.out.println("squares");
+		for (Integer num : arralist)
+			square.accept(num);
 	}
-	
 
-
+}
