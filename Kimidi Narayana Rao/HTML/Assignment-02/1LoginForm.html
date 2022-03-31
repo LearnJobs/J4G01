@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Form</title>
+        <style>
+            body
+            {
+                background-image: url('forest.jpg');
+            }
+        div
+        {
+            width: 800px;
+            height: 520px;
+            background-color: skyblue;
+            margin-left: 400px;
+            margin-top: 130px;
+
+        }
+      
+        .box
+        {
+            margin-bottom: -10px;
+            width: 600px;
+            height: 350px;
+            margin-left: 30px;
+            border-radius: 20px;
+            padding: 50px;
+            position: absolute;
+            color:white;
+            top:50%;
+            left:50%;
+            transform: translate(-50%,-50%);
+            background:rgb(24, 73, 180);
+            text-align:left;
+        }
+        label
+        {
+            
+            margin-left: 100px;
+            color: skyblue;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        
+        .box input[type="text"], .box input[type="password"]
+        {
+        
+            width: 300px;
+            margin-left:130px; 
+            padding: 8px;
+            position: inline-block;
+            border-radius: 5px;
+        }
+        .box input[type="checkbox"]
+        {
+            margin-left: 100px;
+        }
+        .btn 
+        {
+            width: 200px;
+            margin-left: 200px;
+            padding: 8px;
+            border-radius: 7px;
+            color: blue;
+            font-weight: bold;
+        }      
+
+        </style>
+    </head>
+
+    <body>
+        <div>
+    
+        <form class="box" action="" method="post">
+            <h1 style="text-align: center;color: maroon;">Login Here</h1>
+                <br><br>
+                <label>Email</label><br> 
+                <input type="text" required placeholder="Email" name="" value=""><br><br>
+                <label>Password</label><br>
+                <input type="password"  required placeholder="Password" name="" value=""><br><br>
+                <input type="submit" class="btn" name="" value="Log In Here" ><br><br>
+                <input type="checkbox" name="">Remember me
+    </form>
+</div>
+    </body>
+
+</html>
