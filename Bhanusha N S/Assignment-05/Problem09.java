@@ -1,4 +1,4 @@
-package assigment7;
+package com.assigment05;
 
 import java.util.ArrayList;
 
