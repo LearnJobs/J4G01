@@ -13,9 +13,10 @@ public class SalaryExceptionHandle {
 					System.out.println(se.msg());
 				}
 		}
-		else
+		else{
 			salary+=1000;
 			System.out.println("salary:"+salary);
+		}
 	}
 
 }
