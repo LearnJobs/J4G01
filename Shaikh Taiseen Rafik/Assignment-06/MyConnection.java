@@ -8,7 +8,6 @@ public class MyConnection {
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		System.out.println("Driver is loaded ");
 		
-		//connect to the sql instance and database
 		Connection con=DriverManager.getConnection("jdbc:mysql://localhost/learnjob","root","mysql");
 		return con;
 		
