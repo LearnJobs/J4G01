@@ -13,7 +13,7 @@ public class ProductCategory {
 			Connection con=MyConnection.getConnection();
 			System.out.println("Connected to database ");
 			
-			Statement st=con.createStatement();//statement object is used to fire the queries 
+			Statement st=con.createStatement();
 			ResultSet rs=st.executeQuery("select * from product where productCategory='garment'");
 			while(rs.next()) {
 			
