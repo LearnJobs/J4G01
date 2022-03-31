@@ -21,11 +21,8 @@ public class ProductCategory {
 			
 			}
 		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
 			System.out.println("Driver not configured!! ");
-			//e.printStackTrace();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
