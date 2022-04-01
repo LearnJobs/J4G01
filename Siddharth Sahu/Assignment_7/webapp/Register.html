@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Register Form</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div id="login-form-wrap">
+        <h2>Register</h2>
+        <form id="login-form" action="http://localhost:8080/Assignment_7/RegisterServlet" method="post">
+            <p>
+                <input type="text" id="username" name="newusername" placeholder="Username" required>
+            </p>
+            <p>
+                <input type="password" id="password" name="newuserpass" placeholder="Password" required>
+            </p>
+            <p>
+                <input type="submit" id="register" value="Register">
+            </p>
+        </form>
+        <div id="create-account-wrap">
+            <p>Already Registered? <a href="http://localhost:8080/Assignment_7/Login.html">Login</a>
+                <p>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,41 @@
+<!--   1. Create a servlet based application with following functionality.
+        a. It should have login screen with username and password
+        b. Registration page with username and password
+        c. RegisterServlet to store the data into the database
+        d. LoginServlet to check the credentials from Database.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+    <div id="login-form-wrap">
+        <h2>Login</h2>
+        <form id="login-form" action="http://localhost:8080/Assignment_7/LoginServlet" method="post">
+            <p>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </p>
+            <p>
+                <input type="password" id="password" name="userpass" placeholder="Password" required>
+            </p>
+            <p>
+                <input type="submit" id="login" value="Login">
+            </p>
+        </form>
+        <div id="create-account-wrap">
+            <p>Not a member? <a href="http://localhost:8080/Assignment_7/Register.html">Create Account</a>
+                <p>
+        </div>
+    </div>
+</body>
+
+</html>
