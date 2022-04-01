@@ -1,0 +1,87 @@
+<html>
+<style>
+.tooltip 
+{
+  position: fixed;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext 
+{
+  visibility: hidden;
+  width: 120px;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: relative;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after 
+{
+  content: "";
+  position: relative;
+   top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext 
+{
+  visibility: visible;
+  opacity: 1;
+}
+table, th, td { border: 3px solid black;
+                color: rgb(3, 7, 34);
+                background-color: bisque;
+                font-size: larger; }
+</style>
+<body>
+
+<div class="tooltip">
+      <table style="border-style: solid;"> 
+            <thead>
+                <th>Computer Language</th>
+                <th>Uses</th>
+            </thead>   
+          <tr>
+          <td>HTML</td>
+              <td>It is used to design Web pages</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>It is used to style and layout web pages</td>
+        </tr>
+        <tr>
+            <td>JAVA</td>
+            <td>Java is used to write applications for different platforms that run JRE and supports applications that run on a single device like a desktop or mobile phone</td>
+        </tr>
+        <tr>
+            <td>PYTHON</td>
+            <td>It is used in AI and machine learning.</td>
+        </tr>
+        <tr>
+            <td>JAVASCRIPT</td>
+            <td>It is used to Add interactive behavior to web pages</td>
+        </tr>
+        <tr>
+            <td>RUBY</td>
+            <td>It's used for web servers, DevOps, and web scraping and crawling</td>
+        </tr>
+      </table>
+      <span class="tooltiptext">Hover Text</span>
+  </span>
+</div>
+</body>
+</html>
+
