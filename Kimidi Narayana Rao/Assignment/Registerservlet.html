@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+	body
+	{
+		background-color:grey;
+	}
+	h1
+	{
+		text-align:center;
+		color:green;
+	}
+	pre
+	{
+		margin-left:350px;
+	}
+	b{
+		color:maroon;
+		font-size:20px;
+	}
+	.btn
+	{
+		color:red;
+		padding-left:30px;
+		height:30px;
+		padding-bottom:20px;
+		padding-top:5px;
+		width:150px;
+		text-align:center;
+		font-size:larger;
+		
+	}
+	
+</style>
+<title>Registration Page</title>
+</head>
+<body>
+	<h1>Register Here</h1>
+<form action="./RegisterServlet" method="post">
+
+<pre>
+		<b>Enter Name</b>: <input type="text" name="entname"><br>
+		<b>Enter Email</b>:<input type="email" name="entmail"><br>
+		<b>Password:</b>   <input type="password" name="entpswd"><br>
+			<input class="btn" type="submit" value="Register Here">
+</pre>
+</form>
+</body>
+</html>

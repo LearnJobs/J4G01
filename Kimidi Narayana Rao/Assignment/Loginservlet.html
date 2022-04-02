@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+	body
+	{
+		background-color:grey;
+	}
+	h1
+	{
+		text-align:center;
+		color:green;
+	}
+	pre
+	{
+		margin-left:400px;
+	}
+	b{
+		color:maroon;
+		font-size:20px;
+	}
+	.btn
+	{
+		color:red;
+		padding-left:30px;
+		height:30px;
+		padding-bottom:20px;
+		padding-top:5px;
+		width:100px;
+		text-align:center;
+		font-size:larger;
+		
+	}
+	
+</style>
+<title>Login</title>
+</head>
+<body>
+	<h1>Login Here</h1>
+	<form method="post" action="./LoginServlet">
+<pre>
+	<b>User Name:</b> <input type="text" name=t1> <br>
+	<b>Password :</b> <input type="password" name=t2><br>
+	   <input class="btn" type=submit value="Login">   <input class="btn" type=reset>
+</pre>
+	</form>
+</body>
+</html>
