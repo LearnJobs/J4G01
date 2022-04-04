@@ -41,8 +41,19 @@ public class BookController {
 	  }
 	 
 	 @DeleteMapping("/books/{bookid}")
-	  void deleteEmployee(@PathVariable("bookid") int bookid) {
-		 bookRepository.deleteById(bookid);
-	  }
+	  public Books deletebook(@PathVariable("bookid") int bookid) throws Exception {
+	  Books deletebook = null;
+	  try {
+	  deletebook = bookRepository.findById(bookid).orElse(null);
+		if (deletebook == null) {
+			throw new Exception("bookid not available");
+		} else {
+			bookRepository.deleteById(bookid);
+		}
+		} catch (Exception e) {
+		throw e;
+		}
+		return deletebook;
+		}
 	}
 
