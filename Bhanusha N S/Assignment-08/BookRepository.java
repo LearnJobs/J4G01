@@ -6,9 +6,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface BookRepository extends JpaRepository<Boook_class, Integer> {
 
-	Boook_class postBook(Boook_class book);
-
-	Boook_class deleteBook(int bookid);
+	
 	
 
 }
