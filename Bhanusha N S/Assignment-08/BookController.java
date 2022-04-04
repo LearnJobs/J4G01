@@ -40,8 +40,8 @@ public class BookController {
 		return bookRepository.save(book);
 	}
 
-	@DeleteMapping("/delete/{bookid}")
-	public Boook_class deletebook(int bookid) throws Exception {
+	@DeleteMapping("/books/{bookid}")
+	public Boook_class deletebook(@PathVariable("bookid")int bookid) throws Exception {
 		Boook_class deletebook = null;
 		try {
 			deletebook = bookRepository.findById(bookid).orElse(null);
