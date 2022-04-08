@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+
+public class DemoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+                System.out.println("Solution 1");
+		 TestTable1 Salestable = new TestTable1();
+		 Testtable.display_Sales();
+		System.out.println("Solution 2");
+		solution2 price = new solution2();
+		price.display_price("price");
+
+	}
+
+}
