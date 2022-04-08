@@ -1,0 +1,26 @@
+package Assigment5;
+
+import java.util.ArrayList;
+
+public class StreamAPITest1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String> arraylist = new ArrayList<String>();
+		arraylist.add("sheik");
+		arraylist.add("hasan");
+		arraylist.add("syed");
+		arraylist.add("ragu");
+		arraylist.add("vicky");
+		arraylist.add("praveen");
+		arraylist.add("surya");
+		arraylist.add("bala");
+		arraylist.add("babu");
+		arraylist.add("partha");
+		arraylist.add("basheer");
+		arraylist.add("haleeth");
+		arraylist.stream().filter(s -> s.startsWith("S")).forEach(s -> System.out.println(s));
+
+	}
+
+}

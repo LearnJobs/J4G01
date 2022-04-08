@@ -1,0 +1,19 @@
+package Assignment5;
+
+
+public class ExtendThreadDemo extends Thread {
+	public ExtendThreadDemo() {
+
+	}
+
+	public void run() {
+		System.out.println("Hello world..!!");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ExtendThreadDemo threadclass = new ExtendThreadDemo();
+		threadclass.start();
+	}
+
+}

@@ -1,0 +1,11 @@
+package Assignment5;
+
+public class ExecutorsframeworksTest implements Runnable {
+
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Numbers");
+		for (int i = 1; i <= 10; i++)
+			System.out.print(i + "\n");
+	}
+}

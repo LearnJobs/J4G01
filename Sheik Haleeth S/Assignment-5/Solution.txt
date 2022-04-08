@@ -1,0 +1,25 @@
+package Assigment5;
+
+import java.util.ArrayList;
+
+public class Solution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<Integer> arraylist = new ArrayList<Integer>();
+		arraylist.add(45);
+		arraylist.add(85);
+		arraylist.add(23);
+		arraylist.add(8);
+		arraylist.add(4);
+		arraylist.add(9);
+		arraylist.add(77);
+		arraylist.add(48);
+		arraylist.add(20);
+		arraylist.add(40);
+		int num =arraylist.stream().filter(n->n>20).findFirst().get();
+		System.out.println(num);
+
+	}
+
+}

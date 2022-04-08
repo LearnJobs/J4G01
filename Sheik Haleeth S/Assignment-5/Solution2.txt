@@ -1,0 +1,22 @@
+package Assigment5;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Solution2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> list = new ArrayList<String>();
+		list.add("collage");
+		list.add("days");
+		list.add("haleeth");
+		list.add("private");
+		list.add("stop");
+
+		boolean anymatch = list.stream().anyMatch(s -> s.endsWith("te"));
+		System.out.println(anymatch);
+
+	}
+
+}
