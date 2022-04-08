@@ -1,0 +1,18 @@
+<center>
+    <form [formGroup]="EmployeeForm" (ngSumit)="onSumit()">
+        <div>
+            Employee Name: <input class="input-field" type="text" formControlName="empName" required>
+        </div>
+
+        <div>
+            Employee Id: <input class="input-field" type="text" formControlName="empId" required>
+        </div>
+
+        <div>
+            Employee Department: <input class="input-field" type="text" formControlName=" empDept" required>
+        </div>
+        <div>
+            <input type="submit" value="Add Employee">
+        </div>
+    </form>
+</center>
