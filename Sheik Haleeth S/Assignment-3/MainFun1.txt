@@ -1,0 +1,13 @@
+package Assignment3;
+
+public class MainFun1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArithmeticException01 t = new ArithmeticException12();
+		t.add(15, 01);
+		t.div(45, 0);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package Assignment3;
+
+public class MainFun2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Generically02 g=new Genericaly();
+		g.generic(9, 0, "GOOD MORNING");
+	}
+
+}
