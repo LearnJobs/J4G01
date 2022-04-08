@@ -1,0 +1,15 @@
+package demo2;
+
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+
+public class Add2Days {
+
+	public static void main(String[] args) {
+		LocalDate plusTwoDays = LocalDate.now().plusDays(2);
+		if(plusTwoDays.getDayOfWeek()==DayOfWeek.THURSDAY)
+			System.out.println("It is Sunday");
+		else
+			System.out.println(plusTwoDays.getDayOfWeek().toString());	 
+	}
+}

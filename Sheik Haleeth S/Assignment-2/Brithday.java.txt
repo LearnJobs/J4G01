@@ -1,0 +1,14 @@
+package demo2;
+
+import java.time.LocalDate;
+import java.time.Month;
+import java.time.Period;
+public class Birthday {
+
+	public static void main(String[] args) {
+		LocalDate employeeBirthday = LocalDate.of(2000, Month.MARCH,19);
+		LocalDate currentDate = LocalDate.now();
+		Period age = Period.between(employeeBirthday, currentDate);
+		System.out.println("Employee age is "+age.getYears()+" years "+age.getMonths()+" months "+age.getDays()+" days");
+	}
+}

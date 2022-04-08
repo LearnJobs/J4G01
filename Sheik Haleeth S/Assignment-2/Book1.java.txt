@@ -1,0 +1,13 @@
+package demo2;
+
+public class BookShallowCloning
+{		 
+		public static void main(String[] args) throws CloneNotSupportedException
+		{
+			Book book1 = new Book(1,"Finding nemo","Andrew Stanton");
+			System.out.println("Content of Book1 Object : "+book1);
+			
+			Book book2 = (Book)book1.clone();
+			System.out.println("Content of Cloned book object : "+book2);
+		}		
+}

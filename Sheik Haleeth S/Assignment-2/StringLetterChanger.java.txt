@@ -1,0 +1,10 @@
+package demo2;
+
+public class StringLetterChanger {
+	public static void main(String[] args) {
+		String string = "If Your Bad I Am Your Dad";
+		System.out.println("Original String : "+string);
+		System.out.println("String to Uppercase : "+string.toUpperCase());
+		System.out.println("String to Lowercase : "+string.toLowerCase());
+	}
+}

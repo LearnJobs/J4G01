@@ -1,0 +1,14 @@
+package demo2;
+
+public class BookCheck
+{
+	public static void main(String[] args) {
+			Book book1 = new Book(1,"Harry Potter","J.K. Rowling");
+			Book book2 = new Book(2,"Finding nemo","Andrew Book.java");
+			
+			if(book1.equals(book2))
+				System.out.println("Objects are equal");
+			else
+				System.out.println("Objects are not equal");
+	}
+}

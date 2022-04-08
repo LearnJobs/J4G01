@@ -1,0 +1,11 @@
+package demo2;
+
+public class StringBreak 
+{
+	public static void main(String[] args) {
+		String string = "Know one is perfect better then us.";
+		String[] stringArray=string.split(" ");
+		for(String elements:stringArray)
+				System.out.println(elements);
+	}
+}
