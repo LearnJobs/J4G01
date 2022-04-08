@@ -1,0 +1,28 @@
+package Assignment4;
+
+public class ComparableTest1 implements Comparable<ComparableTest1> {
+
+	String firstName;
+	String lastName;
+
+	public ComparableTest1(String x, String y) {
+		this.firstName = x;
+		this.lastName = y;
+	}
+
+	public String toString() {
+		return  firstName + " , " + lastName ;
+	}
+
+	@Override
+	public int compareTo(ComparableTest1 a) {
+		
+		if (this.firstName.compareTo(a.firstName) != 0) {
+			return this.firstName.compareTo(a.firstName);
+		} else {
+			
+			return this.lastName.compareTo(a.lastName);
+		}
+	}
+
+}

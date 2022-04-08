@@ -1,0 +1,24 @@
+package Assignment4;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListDemo1 {
+
+	public static void main(String[] args) {
+		
+		ArrayList<String> a = new ArrayList<String>();
+		a.add("mysql Text book");
+		a.add("php");
+		a.add("Science");
+		a.add("Tamil");
+		a.add("Eglish");
+		Iterator<String> i = a.iterator();
+		while (i.hasNext()) {
+			System.out.println(i.next());
+
+		}
+
+	}
+
+}

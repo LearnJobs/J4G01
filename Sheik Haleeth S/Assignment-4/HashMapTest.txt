@@ -1,0 +1,30 @@
+package Assignment4;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public class HashMapTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<String, String> v = new HashMap<String, String>();
+		v.put("Tamil", "master");
+		v.put("English", "William Shakespeare");
+		v.put("Maths", "Arya Bhat");
+		v.put("Chemistry", "Lisa Nichols ");
+		v.put("History", " Herodotus");
+		v.put("Java", "Agarval");
+		v.put("C++", "Bjarne Stroustrup");
+		v.put("PHP", "Danish-Canadian");
+		v.put("C", "Dennis Ritchie");
+		v.put("Python", "Guido van Rossum");
+		System.out.println(m);
+		System.out.println("-------------------------");
+		Iterator<Map.Entry<String, String>> f = v.entrySet().iterator();
+		while (f.hasNext()) {
+			System.out.println(f.next());
+		}
+	}
+
+}

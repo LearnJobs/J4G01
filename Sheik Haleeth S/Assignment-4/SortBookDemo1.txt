@@ -1,0 +1,29 @@
+package Assignment4;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+public class SortBookDemo1 {
+	public static void main(String[] args) {
+
+		List<BookDemo1> book = new ArrayList<BookDemo1>();
+
+		book.add(new BookDemo1(1, "java", "sheik", 800.0));
+		book.add(new BookDemo1(2, "java 8.0", "syed", 440.0));
+		book.add(new BookDemo1(3, "corejava ", "hasan", 460.0));
+		book.add(new BookDemo1(4, "python", "ragu", 870.0));
+		book.add(new BookDemo1(5, "advancedjava", "vicky", 116.0));
+
+		book.sort(new Comparator<BookDemo1>() {
+
+			@Override
+			public int compare(BookDemo1 b, BookDemo1 b1) {
+				// TODO Auto-generated method stub
+				return b.price.compareTo(b1.price);
+			}
+		});
+		System.out.println(book);
+
+	}
+}
