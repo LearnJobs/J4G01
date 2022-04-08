@@ -1,0 +1,25 @@
+
+<div style="margin-left: 500px;">
+  <h1>{{title}}</h1>
+  
+<form [formGroup] = "loginForm" (ngSubmit)="loginUser()">
+   
+          <label> Id :</label><br>
+          <input type="text"  formControlName="empid" placeholder="Employee Id">
+          <br>
+          <span style="color: red;" *ngIf="empid  && empid.invalid && empid.touched">Id is required</span>
+         <br>
+         <label> Name :</label><br>
+         <input type="text"  formControlName="empname" placeholder="Employee Name">
+         <br>
+         <span style="color: red;" *ngIf="empname  && empname.invalid && empname.touched">Name is required</span>
+        <br>
+        
+        <label> Department :</label><br>
+         <input type="text" ngModel formControlName="empdept" placeholder="Employee Department">
+         <br>
+         <span style="color: red;" *ngIf="empdept  && empdept.invalid && empdept.touched">Department is required</span>
+          <br>
+        <button [disabled]="loginForm.invalid" >Login</button>
+</form>
+</div>
