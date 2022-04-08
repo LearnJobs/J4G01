@@ -1,0 +1,41 @@
+<h4>EMPLOYEES APPLICTION</h4>
+
+<form #Form="ngForm" (ngSubmit)="submit(Form.value)">
+  <div class="form-group">
+    <label for="Employee-ID">Employee-ID</label>
+    <input required ngModel name="employeeid" type="number" #employeeid="ngModel" class="form-control" id="employeeid">
+    <div class="alert alert-danger" *ngIf="employeeid.touched && !employeeid.valid">
+      Employee-ID is required
+    </div>
+  </div>
+
+    <div class="form-group">
+      <label for="Employee-Name">Employee-Name</label>
+      <input required minlength="4" maxlength="11" ngModel name="employeename" type="text" #employeename="ngModel"
+        class="form-control" id="employeename">
+      <div class="alert alert-danger" *ngIf="employeename.touched && !employeename.valid">
+        <div *ngIf="employeename.errors?.['required']">Employee-Name is required</div>
+        <div *ngIf="employeename.errors?.['minlength']">Employee-Name minlength {{
+          employeename.errors?.['minlength'].requiredLength }}character</div>
+        <div *ngIf="employeename.errors?.['maxlength']">Employee-Name maxlength 11 character </div>
+      </div>
+    </div>
+
+      <div class="form-group">
+        <label for="Employee-Dept">Employee-Dept</label>
+        <input required minlength="4" maxlength="21" ngModel name="employeedept" type="text" #employeedept="ngModel"
+          class="form-control" id="employeedept">
+        <div class="alert alert-danger" *ngIf="employeedept.touched && !employeedept.valid"></div>
+          <div *ngIf="employeedept.errors?.['required']">Employee-Dept is required</div>
+          <div *ngIf="employeedept.errors?.['minlength']">Employee-Dept minlength {{
+            employeedept.errors?.['minlength'].requiredLength }}character</div>
+          <div *ngIf="employeedept.errors?.['maxlength']">Employee-Dept maxlength 11 character </div>
+        </div>
+        
+      
+    
+        <button type="submit" class="btn btn-primary">Submit</button>
+        <button class="btn btn-default">Reset</button>
+      
+    
+</form>
