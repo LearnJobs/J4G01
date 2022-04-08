@@ -1,0 +1,19 @@
+package assigmnet;
+
+public class BookArray {
+
+	public static void main(String[] args) {
+		Book[] bookArray = new Book[] {
+										new Book(1,"Java The Complete Reference","Herbert Schildt"),
+										new Book(2,"Core Java","Garry Cornell"),
+										new Book(3,"Head First Java","Kathy Sierra"),
+										new Book(4,"Thinking In Java","Bruce Eckel"),
+										new Book(5,"Java Puzzler","Joshua Bloch")};
+				
+				for(Book book:bookArray)
+						book.printBook();
+				
+				Book book1=new Book();
+				book1.printBook();
+		}
+}

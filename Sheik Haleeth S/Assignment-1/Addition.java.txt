@@ -1,0 +1,13 @@
+public class Addition {
+	public static void main(String[] args){
+		int[] intArray = {20,40,60,80,100};
+		sumOfArray(intArray);		
+	}
+	public static void sumOfArray(int[] integerArrays){
+		int sum=0;
+		for(int value:integerArrays)
+			sum+=value;
+		System.out.println("Sum of array element : "+sum);
+		System.out.println("Average of array element : "+(sum/integerArrays.length));
+	}
+}

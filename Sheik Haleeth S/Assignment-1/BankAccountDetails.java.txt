@@ -1,0 +1,24 @@
+package assigmnet;
+
+public class BankAccountDetails {
+	public static void main(String[] args) {
+		StudentBankAccounts bankAccount1 = new StudentBankAccounts(1234,"Syed",1700);
+		StudentBankAccounts bankAccount2 = new StudentBankAccounts(2345,"Hasan",2500);
+		StudentBankAccounts bankAccount3 = new StudentBankAccounts(7894,"Sheik",8000);
+		
+		
+		bankAccount1.depositBalance(20000);
+		bankAccount3.depositBalance(-5000);
+		
+		
+		bankAccount2.withdrawBalance(5000);
+		bankAccount1.withdrawBalance(13000);
+		bankAccount2.withdrawBalance(1000);
+		
+		System.out.println();
+		System.out.println(bankAccount1);
+		System.out.println(bankAccount2);
+		System.out.println(bankAccount3);
+		System.out.println("Total Balance of the bank : "+StudentBankAccounts.totalBalance+" Ruppes only");
+	}
+}

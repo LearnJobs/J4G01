@@ -1,0 +1,24 @@
+package assigmnet;
+
+public class Book {
+	int bookId;
+	String bookName,bookAuthor;
+	
+	public Book() {		//Default constructor
+		bookId=1929;
+		bookName="Finding nemo";
+		bookAuthor="Andrew Stanton";
+	}
+	public Book(int bookId, String bookName, String bookAuthor) {
+		 super();
+		this.bookId = bookId;
+		this.bookName = bookName;
+		this.bookAuthor = bookAuthor;
+	}
+	
+	public void printBook()
+	{
+		System.out.println("Book Id : "+bookId+"\nBook Name : "+bookName+"\nAuthor : "+bookAuthor+"\n");
+	}
+
+}
